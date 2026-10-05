@@ -1,3 +1,4 @@
+# TODO: in futuro valutare di riorganizzare il programma mostrando un giorno alla volta (es. tab per giorno) invece della tabella settimanale.
 headers:
 - "TIME"
 - "Sunday 20"
@@ -13,7 +14,7 @@ activities:
     content:
       icon: "comments"
       text: "**Internal meeting for the organization**"
-    rowspan: 13
+    rowspan: 15
   monday:
     content:
       icon: "id-card"
@@ -49,41 +50,41 @@ activities:
   tuesday:
     content:
       icon: "comment"
-      text: "**Sara Colantonio**<br>AI and Health"
+      text: "**From Interpretability Methods to Interpretable Models**"
     rowspan: 3
   wednesday:
     content:
       icon: "comment"
-      text: "**Alessio Rossi**<br>Sport Analytics on Football"
+      text: "**Meaningful Human Control over Autonomous Systems**"
     rowspan: 3
   thursday:
     content:
       icon: "comment"
-      text: "**Jose Such**<br>Human-centred AI Privacy"
+      text: "**Policies and Data**"
     rowspan: 3
   friday:
     content:
       icon: ""
       text: ""
-    rowspan: 1
+    rowspan: 2
 
 - time: "10:00 10:30"
   monday:
     content:
       icon: "comment"
-      text: "**Roberto Trasarti**<br>**Salvatore Ruggieri**<br>SoBigData RI & School Introduction"
+      text: "**SoBigData RI & School Introduction**"
     rowspan: 1
-  friday:
-    content:
-      icon: "comment"
-      text: "**Projects Presentations**<br>chaired by Mark Coté"
-    rowspan: 2
 
 - time: "10:30 11:00"
   monday:
     content:
       icon: "comment"
-      text: "**Valerio Grossi**<br>Tutorial SoBigData Lab"
+      text: "**Tutorial SoBigData Lab**"
+    rowspan: 1
+  friday:
+    content:
+      icon: "comments"
+      text: "**Student Projects Presentations**"
     rowspan: 1
 
 - time: "11:00 11:30"
@@ -117,59 +118,73 @@ activities:
 - time: "11:30 12:00"
   monday:
     content:
-      icon: "comment"
-      text: "**Project Challenges Presentation**<br> by Lorenzo Mannocci, Francesco Oleni, Pietro Ilio Gatti"
-    rowspan: 2
+      icon: "comments"
+      text: "**Project Challenges Presentation**"
+    rowspan: 3
   tuesday:
     content:
       icon: "comment"
-      text: "**Elena Cardillo**<br>Healthcare Data and Knowledge Representation"
-    rowspan: 1
+      text: "**Human–AI Coevolution**"
+    rowspan: 2
   wednesday:
     content:
       icon: "comment"
-      text: "**Maurizio Napolitano**<br>Volleyball Analytics"
+      text: "**Human–AI**"
     rowspan: 2
   thursday:
     content:
       icon: "comment"
-      text: "**Francesca Naretto**<br>Privacy, Fairness and XAI"
-    rowspan: 2
+      text: "**Data Representation**"
+    rowspan: 1
   friday:
     content:
       icon: "comments"
-      text: "**Projects Presentations**<br>chaired by Mark Coté. Evaluators: Francesca Naretto, Anna Monreale, Francesco Oleni, Pietro Ilio Gatti"
-    rowspan: 4
+      text: "**Projects Presentations**"
+    rowspan: 6
 
-- time: "12:00 12:30"
+- time: "12:00 12:15"
+  thursday:
+    content:
+      icon: "comment"
+      text: "**Social Science Data Archives**"
+    rowspan: 3
+
+- time: "12:15 12:30"
   tuesday:
     content:
       icon: "comment"
-      text: "**Salvatore Rinzivillo**<br>Visualization Health"
-    rowspan: 2
+      text: "**Enabling the Human in the Loop**"
+    rowspan: 3
+  wednesday:
+    content:
+      icon: "comment"
+      text: "**Explainability**"
+    rowspan: 3
 
 - time: "12:30 12:45"
   monday:
     content:
-      icon: "comment"
-      text: "**Group decision challenge**"
-    rowspan: 2
-  wednesday:
-    content:
-      icon: "comment"
-      text: "**Elisabeth Black**<br>Towards trustworthy and responsible AI"
-    rowspan: 2
+      icon: "comments"
+      text: "**Group Decision Challenge**"
+    rowspan: 3
+
+- time: "12:45 13:00"
   thursday:
     content:
       icon: "comment"
-      text: "**Awais Rashid**<br>“Do LLMs dream of Elliptic Curves”: Security considerations for AI usage in software development"
+      text: "**Monitoring Electoral Democracy**"
     rowspan: 2
 
-- time: "12:45 13:30"
+- time: "13:00 13:30"
   tuesday:
     content:
       icon: "comment"
-      text: "**Vasiliki Voukelatou**<br>Wellbeing"
+      text: "**Human–AI Interaction**"
+    rowspan: 1
+  wednesday:
+    content:
+      icon: "comment"
+      text: "**Personal and Non-personal Data Governance**"
     rowspan: 1
 
 - time: "13:30 15:00"
@@ -224,7 +239,7 @@ activities:
   friday:
     content:
       icon: "handshake"
-      text: "**Internal Meeting**<br>SoBigData RI"
+      text: "**Internal Meeting**<br>SoBigData IP"
     rowspan: 3
 
 - time: "16:00 16:30"
@@ -270,28 +285,28 @@ activities:
 - time: "18:00 18:30"
   sunday:
     content:
-      icon: 
-      text: 
+      icon: ""
+      text: ""
     rowspan: 1
   monday:
     content:
-      icon: 
-      text: 
+      icon: ""
+      text: ""
     rowspan: 2
   tuesday:
     content:
       icon: "handshake"
-      text: "**Social Event**<br>Petra winery tour and dinner"
+      text: "**Social Event**<br>TBA"
     rowspan: 3
   thursday:
     content:
-      icon: 
-      text: 
+      icon: ""
+      text: ""
     rowspan: 2
   friday:
     content:
-      icon: 
-      text: 
+      icon: ""
+      text: ""
     rowspan: 2
 
 - time: "18:30 20:30"
@@ -301,19 +316,16 @@ activities:
       text: "**Welcome Cocktail <br>and dinner**"
     rowspan: 2
 
-
-
-
 - time: "20:30"
   monday:
     content:
       icon: "cutlery"
-      text: "**Dinner**<br>Serata Toscana"
+      text: "**Dinner**"
     rowspan: 1
   wednesday:
     content:
       icon: "cutlery"
-      text: "**Dinner**<br>Serata Mare"
+      text: "**Dinner**"
     rowspan: 1
   thursday:
     content:

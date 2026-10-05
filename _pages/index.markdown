@@ -27,7 +27,7 @@ Data, Models and Human–AI Coevolution: how algorithms and people shape each ot
     </div>
 </div>
 <div class="container-fluid my-3 py-5 full-width-wrapper bg-color-full bg-color">
- <h4 class="mb-5 text-white text-center text-uppercase"><strong>The school is organised in four thematic days</strong></h4>
+ <h4 class="mb-5 text-white text-center text-uppercase"><strong>Four days of lectures, followed by the project presentations</strong></h4>
 {% include img-gallery-cards.html 
     datasource='school-days'
     img_url='image'
@@ -66,8 +66,8 @@ Data, Models and Human–AI Coevolution: how algorithms and people shape each ot
             <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}{% link _pages/venue.markdown %}.html">Poggio all’Agnello </a> is a fully equipped resort that will host the 2027 edition of the SoBigData Summer school.
             </p>
             <h3>Registration & Deadline</h3>
-            <p>The school is open to a maximum of <strong>{{ site.data.school-info.max_participants }} participants</strong>. PhD students of the <a href="https://www.phd-ai.it/" target="_blank">Italian National PhD Program in AI</a> have a <strong>pre-registration window</strong> opening 20 days before public registration.</p>
-            <p>Registration dates will be announced soon.</p>
+            <p>Early registration until {{ site.data.school-info.registration.early.deadline }}.</p>
+            <p><strong>Late registration between {{ site.data.school-info.registration.late.start }} and {{ site.data.school-info.registration.late.deadline }} will have an additional cost.</strong></p>
             </div>
         </div>
     </div>
@@ -107,16 +107,19 @@ Data, Models and Human–AI Coevolution: how algorithms and people shape each ot
 </div>
 
 {% assign home_speakers = site.data.speaker-cards | where: "home", true %}
-{% if home_speakers.size > 0 %}
 <div class=" container-fluid my-5 pt-2 pb-5 bg-color-full bg-color">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h3 class="text-white">Keynote Speakers</h3>
                 <hr>
+                {% if home_speakers.size == 0 %}
+                <p class="lead text-white">TBA</p>
+                {% endif %}
             </div>
         </div>
     </div>
+{% if home_speakers.size > 0 %}
 {% include img-home-cards.html  
     datasource='speaker-cards' 
     url='img_url' 
@@ -125,8 +128,8 @@ Data, Models and Human–AI Coevolution: how algorithms and people shape each ot
     description='institution' 
     container='fluid' 
 %}
-</div>
 {% endif %}
+</div>
 
 <div class="container cta">
         <div class="row py-5">
@@ -145,9 +148,7 @@ Data, Models and Human–AI Coevolution: how algorithms and people shape each ot
             <h5>This summer school is organized and supported by</h5>
         <div class="logo-grid">
                     <a href="http://sobigdata.eu" target="_blank" title="SoBigData RI"><img src="{{ site.baseurl }}/assets/images/Logo_SoBigData_RI_560_X_100.png" alt="SoBigData RI" ></a>
-                    <a href="https://www.fondazionearea.org/home-page" target="_blank" title="Fondazione AREA"><img src="{{ site.baseurl }}/assets/images/fondazioneAREA.png" alt="Fondazione area" ></a>
-                    <a href="https://consorzioquinn.it/" target="_blank" title="Consorzio Quin"><img src="{{ site.baseurl }}/assets/images/Logo_consorzio-quin-logo.svg" alt="Consorzio Quin" ></a>
-                    <a href="https://www.phd-ai.it/" target="_blank" title="PhD AI"><img src="{{ site.baseurl }}/assets/images/Logo_phd-ai.png" alt="phd-ai" ></a>
+                    <a href="https://www.caio-project.it/" target="_blank" title="CAIO - City-AI Coevolution"><img src="{{ site.baseurl }}/assets/images/logo_CAIO.svg" alt="CAIO" ></a>
         </div>
         </div>
     </div>

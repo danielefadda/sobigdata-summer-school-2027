@@ -98,9 +98,7 @@ header_title: "Complex Social Systems<br> in the Age of AI"
 
 
 
-<div class="container">
-{% include_cached snippets/masonry.html internal="surroundings" %}
-</div>
+
 
 <div id="reach-baratti">
     <div class="container">

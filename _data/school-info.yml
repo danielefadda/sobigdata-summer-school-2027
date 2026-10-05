@@ -7,57 +7,48 @@ aim: |
 aim_extended: |
   The SoBigData Summer School will explore the main aspects of this research area: the <strong>empirical analysis</strong> of coevolution patterns on online platforms; the <strong>theoretical and computational modelling</strong> of the underlying socio-technical mechanisms; and the study of possible <strong>interventions</strong> and the <strong>design of algorithms</strong> able to reconcile users' individual goals with collective wellbeing.
 
-  The program combines at least <strong>20 hours of lectures</strong> by national and international experts with a substantial component of <strong>project work in multidisciplinary groups</strong>. Projects are driven by <strong>challenges</strong> proposed by researchers and domain experts, developed with the support of <strong>dedicated tutors</strong>, and presented on the final day to a panel of experts. The school is promoted together with the <strong>Italian National PhD Program in Artificial Intelligence (PhD AI)</strong> and leverages the tools and resources of the <strong>SoBigData Research Infrastructure</strong>.
+  The program combines at least <strong>20 hours of lectures</strong> by national and international experts with a substantial component of <strong>project work in multidisciplinary groups</strong>. Projects are driven by <strong>challenges</strong> proposed by researchers and domain experts, developed with the support of <strong>dedicated tutors</strong>, and presented on the final day to a panel of experts. The school leverages the tools and resources of the <strong>SoBigData Research Infrastructure</strong>.
 
 topics:
   - Human–AI Coevolution
   - Complex Social Systems
-  - Computational Social Science
-  - Recommender Systems
-  - Polarization and Bias
-  - Agent-based and Network Models
-  - Algorithmic Interventions
   - Data Science
   - Artificial Intelligence
-  - Responsible AI
+  - Machine Learning
+  - Wellbeing
+  - Fairness
+  - Agentic AI
+  - Open Science
 
 target_attendees:
-  - PhD Students of the Italian National PhD Program in AI (priority)
-  - PhD Students from other programs
   - Postgraduate Students
-  - Early-career Researchers
-  - Professionals interested in data analysis and AI
+  - PhD Students
+  - Researchers
+  - Social Scientists
 
 
-# Date da definire: aggiornare quando saranno fissate le finestre di iscrizione
 registration:
-  pre:
-    start: "TBA"
-    deadline: "TBA"
-    description: "Pre-registration reserved to PhD AI students (20 days before public registration)"
   early:
-    deadline: "TBA"
+    deadline: "30 April 2027"
     description: "Early registration"
   late:
-    start: "TBA"
-    deadline: "TBA"
+    start: "1 May 2027"
+    deadline: "31 May 2027"
     description: "Late registration will have an additional cost"
-
-max_participants: 50
 
 days:
   - day: "Day 1: SoBigData RI and Project Challenges"
     description: |
-      The opening day introduces participants to the SoBigData Research Infrastructure and to the concept of human–AI coevolution, providing an overview of the tools, data and services available to the research community. Researchers and domain experts will then present the project challenges: concrete problems that participants will tackle in multidisciplinary groups throughout the week with the guidance of dedicated tutors.
-  - day: "Day 2: Measuring Human–AI Coevolution"
+      The opening day starts with a round of presentations of the participants, followed by an introduction to the SoBigData Research Infrastructure and to the school, and a tutorial on the SoBigData Lab. The project challenges are then presented and, in the Group Decision Challenge session, participants form the multidisciplinary groups that will work on them throughout the week. In the afternoon, groups start developing their projects with the guidance of dedicated tutors.
+  - day: "Day 2: Human–AI Coevolution and Interaction"
     description: |
-      The second day is devoted to the empirical analysis of coevolution patterns on online platforms. Participants will explore how data from social media, recommender systems and other AI-mediated services can be used to detect feedback loops between users and algorithms, and to measure their effects on phenomena such as polarization, bias and inequality.
-  - day: "Day 3: Modelling Socio-technical Systems"
+      The second day focuses on how people and AI systems interact and influence each other. Lectures cover the path from interpretability methods to interpretable models, the concept of human–AI coevolution, how to enable the human in the loop, and human–AI interaction. The afternoon is dedicated to project work with tutors.
+  - day: "Day 3: Human Control, Explainability and Data Governance"
     description: |
-      This day focuses on the theoretical and computational modelling of the socio-technical mechanisms underlying human–AI coevolution. Through lectures and case studies, participants will learn how network models, agent-based simulations and other complex-systems approaches can be used to understand how individual behaviour and algorithmic recommendations jointly shape collective dynamics.
-  - day: "Day 4: Interventions and Algorithm Design"
+      This day addresses how humans can keep meaningful control over autonomous systems. Lectures cover meaningful human control, the relationship between humans and AI, explainability, and the governance of personal and non-personal data. After a project session with tutors, the rest of the afternoon is free.
+  - day: "Day 4: Policies, Data and Society"
     description: |
-      The fourth day addresses how to steer human–AI coevolution towards desirable outcomes. Participants will examine possible interventions and the design of algorithms able to reconcile users' individual goals with collective wellbeing, discussing fairness, transparency and the ethical and regulatory implications of AI-mediated platforms.
-  - day: "Day 5: Project Presentations and Closing Remarks"
+      The fourth day connects data and AI with policy and society. Lectures cover the relationship between policies and data, data representation, the role of social science data archives, and the monitoring of electoral democracy. The afternoon is dedicated to finalising the projects with tutors.
+  - day: "Day 5: Project Presentations"
     description: |
-      The final day is dedicated to the presentation of the projects developed by the groups during the week. Results will be presented to a panel of lecturers and experts, who will evaluate them on relevance to the challenge, methodological rigour, innovation, feasibility, quality of the presentation and the group's ability to integrate interdisciplinary skills and ethical considerations. The school will close with final remarks and feedback.
+      The final day is dedicated to the presentation of the projects developed by the groups during the week. Results will be presented to a panel of experts, who will evaluate them on relevance to the challenge, methodological rigour, innovation, feasibility, quality of the presentation and the group's ability to integrate interdisciplinary skills and ethical considerations.

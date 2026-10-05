@@ -45,6 +45,7 @@ header_title: "Complex Social Systems<br> in the Age of AI"
 <div class="container">
         <div class="row py-3">
             <div class="col-12">
+                {% comment %}TODO: in futuro valutare di rivedere questa tabella mostrando un giorno alla volta (es. tab per giorno). Dati in _data/schedule.yml{% endcomment %}
                 <div class="program-table">
                 <table>
   <thead>

@@ -24,7 +24,7 @@ header_title: "Complex Social Systems<br> in the Age of AI"
                 <p class="lead" style="text-align:justify">The social program is structured as follows:</p>
                     <ul>
                         <li>A welcome cocktail on Sunday late afternoon, 20 June 2027</li>
-<li>Visit to the award-winning <a href="https://www.petrawine.it/en/home-english/" target="_blank"> Petra Winery</a>: a guided tour of the vineyards and the winery designed by architect Mario Botta and a dinner with wine tasting.</li>
+<li>Social event: TBA</li>
 <li>A dj-set night with pizza to celebrate the end of the school in an informal setting within the Poggio all’Agnello venue</li>
                     </ul>
             </div>
@@ -38,10 +38,6 @@ header_title: "Complex Social Systems<br> in the Age of AI"
                     /assets/images/social/baratti7.jpeg,
                     /assets/images/social/baratti9.jpeg,
                     /assets/images/social/baratti10.jpeg,
-                    /assets/images/social/petra1.jpeg,
-                    /assets/images/social/petra-2.webp,
-                    /assets/images/social/petra-3.jpeg,
-                    /assets/images/social/petra-4.jpeg,
                     /assets/images/social/baratti10.jpeg,
                     /assets/images/social/restaurant2.webp,
                     "

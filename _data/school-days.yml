@@ -3,29 +3,29 @@
   day: "SoBigData RI and Project challenges"
   title: "SoBigData RI & Project Challenges"
   icon: "icon-network" # Da mappare con i token SVG del design system
-  description:  "Introduction to the SoBigData Research Infrastructure and to human–AI coevolution, followed by the presentation of the project challenges proposed by researchers and domain experts."
+  description:  "Introduction to the SoBigData Research Infrastructure and the SoBigData Lab, presentation of the project challenges and formation of the working groups."
   tags: ["Infrastructure", "Challenges", "Collaboration"]
 
 - id: theme-2
   day-number: 2
-  day: "Measuring Human–AI Coevolution"
-  title: "Measuring Human–AI Coevolution"
-  icon: "icon-chart-line"
-  description: "Empirical analysis of coevolution patterns on online platforms: feedback loops between users and algorithms and their effects on polarization, bias and inequality."
-  tags: ["Online Platforms", "Data Analysis", "Feedback Loops"]
+  day: "Human–AI Coevolution and Interaction"
+  title: "Human–AI Coevolution & Interaction"
+  icon: "icon-network"
+  description: "How people and AI systems influence each other: from interpretability methods to interpretable models, human–AI coevolution, the human in the loop and human–AI interaction."
+  tags: ["Coevolution", "Interpretability", "Interaction"]
 
 - id: theme-3
   day-number: 3
-  day: "Modelling Socio-technical Systems"
-  title: "Modelling Socio-technical Systems"
-  icon: "icon-network"
-  description: "Theoretical and computational models of the socio-technical mechanisms that drive collective dynamics when humans and algorithms coevolve."
-  tags: ["Complex Systems", "Network Models", "Simulation"]
+  day: "Human Control, Explainability and Data Governance"
+  title: "Human Control, Explainability & Data Governance"
+  icon: "icon-shield"
+  description: "Meaningful human control over autonomous systems, humans and AI, explainability and the governance of personal and non-personal data."
+  tags: ["Human Control", "Explainability", "Data Governance"]
 
 - id: theme-4
   day-number: 4
-  day: "Interventions and Algorithm Design"
-  title: "Interventions & Algorithm Design"
-  icon: "icon-shield"
-  description: "Interventions and algorithm design to reconcile users' individual goals with collective wellbeing, with attention to fairness, transparency and ethics."
-  tags: ["Algorithm Design", "Collective Wellbeing", "Responsible AI"]
+  day: "Policies, Data and Society"
+  title: "Policies, Data & Society"
+  icon: "icon-chart-line"
+  description: "Policies and data, data representation, social science data archives and the monitoring of electoral democracy."
+  tags: ["Policies", "Data Archives", "Democracy"]
