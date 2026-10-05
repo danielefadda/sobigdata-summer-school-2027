@@ -1,0 +1,170 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Data Analysis and AI<br> in Sport, Health and Wellbeing"
+subtitle: "21-27 June 2026 – Baratti (Piombino) – TUSCANY (Italy)"
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+
+# Riportare il github del gruppo di progetto e quello del sito web (se differente).
+# Tali informazioni appariranno nel Footer del sito.
+github_repo:
+  - name: "SoBigData Summer school 2026"
+    url: "https://github.com/danielefadda/sobigdata-summer-school-2026"
+
+markdown: kramdown
+
+baseurl: "/sobigdata-summer-school-2026"
+url: "https://danielefadda.github.io"
+
+
+
+navbar:
+  style :  dual #non modificare
+  brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
+    title :  "SoBigData Summer School 2026"
+    img: "./assets/images/Logo_masthead.png"
+    url: /
+  nav:
+    - title: Program
+      url: /schedule.html
+    - title: Speakers
+      url: /speakers.html
+    - title: Venue
+      url: /venue.html
+    - title: Social Event
+      url: /social.html
+    - title: Registration
+      url: /registration.html
+
+
+googlefonts:
+  - url: "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+  - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+  - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
+
+chulapa-skin:
+  skin:  "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
+  vars:
+    body-color: "#07286E"
+    body-bg: "#fff"
+    footer-chulapa-bg-color: "#07286E"
+    footer-chulapa-text-color: "#fff"
+    navbar-chulapa-bg-color: "#07286E"
+    navbar-chulapa-text-color: "#fff"
+    primary: "#07286E"
+    link-color: "#9b1626"
+    link-hover-color: "#de1f36"
+    link-decoration: "underline"
+    # font-family-base: "Comic Neue"
+    headings-font-family: "Rajdhani"
+
+
+
+#chulapa-skin:
+#  autothemer  :  true
+#  vars:
+#    primary: "darkorange"
+
+
+
+##################################################
+#    NON modificare la sezione sottostante
+##################################################
+
+# Build settings
+#theme: chulapa-jekyll # va usato il remote-theme!!!
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+footer:
+  links:
+  - label: "LinkedIn"
+    icon: "fab fa-linkedin"
+    url: https://www.linkedin.com/company/sobigdata
+  - label: "Twitter"
+    icon: "fab fa-twitter"
+    url: https://www.twitter.com/sobigdata
+  - label: "Facebook"
+    icon: "fab fa-facebook"
+    url: https://www.facebook.com/sobigdata
+  copyright: "2026 SoBigData RI"
+
+
+sass:
+  quiet_deps: true
+
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+ - .sass-cache/
+ - .jekyll-cache/
+ - gemfiles/
+ - Gemfile
+ - Gemfile.lock
+ - node_modules/
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/
+ - .idea/
+
+include:
+  - .nojekyll
+livereload: true
+
+remote_theme: dieghernan/chulapa
+
+future: true
+
+defaults:
+- scope:
+    path: "assets/images/venue"
+  values:
+    image_col: venue
+- scope:
+    path: "assets/images/surroundings"
+  values:
+    image_col: surroundings
+- scope:
+    path: "assets/images/accomodation"
+  values:
+    image_col: accomodation
+- scope:
+    path: "assets/images/social"
+  values:
+    image_col: social
+- scope:
+    path: ""
+  values:
+    sitemap: false

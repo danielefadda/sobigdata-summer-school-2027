@@ -1,0 +1,52 @@
+<div class="{% if include.container == 'fluid' %}container-fluid{% else %}container{% endif %}">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            {% assign cards = site.data[include.datasource] %}
+            {% assign image_key = include.url | default: include.img_url %}
+            <section class="themes-grid card-container" aria-label="Thematic Days Program">
+                {% for card in cards %}
+                    <article class="card theme-card" {% if card.id %}id="{{ card.id | escape }}"{% endif %}>
+                        {% if image_key and card[image_key] %}
+                            <div class="card-img">
+                                <img
+                                    src="{{ site.baseurl }}{{ card[image_key] }}"
+                                    class="card-img-top"
+                                    alt="{{ card[include.name] | escape }}"
+                                >
+                            </div>
+                        {% endif %}
+
+                        <div class="card-body theme-content">
+                            {% if card['day-number'] or card[include.name] %}
+                                <div class="theme-heading">
+                                    {% if card['day-number'] %}
+                                        <div class="theme-icon-wrapper" aria-hidden="true">
+                                            {{ card['day-number'] }}
+                                        </div>
+                                    {% endif %}
+
+                                    {% if card[include.name] %}
+                                        <h5 class="card-title theme-title">
+                                            <strong>{{ card[include.name] | escape }}</strong>
+                                        </h5>
+                                    {% endif %}
+                                </div>
+                            {% endif %}
+                        <hr style="margin: 1rem 0; border-top: 1px solid #dee2e6;">
+                            {% if card[include.description] %}
+                                <p class="card-text theme-desc">{{ card[include.description] | escape }}</p>
+                            {% endif %}
+                            {% if card.tags %}
+                                <ul class="theme-tags" aria-label="Related research topics" style="padding-top: 1rem;">
+                                    {% for tag in card.tags %}
+                                        <li class="badge badge-surface">{{ tag | escape }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    </article>
+                {% endfor %}
+            </section>
+        </div>
+    </div>
+</div>

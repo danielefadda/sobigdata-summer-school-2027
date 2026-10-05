@@ -1,0 +1,201 @@
+- name: "Valerio"
+  surname: "Grossi"
+  institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
+  img_url:  "/assets/images/speaker_Grossi.jpg"
+  description: "This tutorial will provide an introduction to the SoBigData Lab, a comprehensive platform for big data analytics and social mining. Participants will learn how to access and utilize the lab's tools and resources for their research projects, with a focus on practical applications in data analysis, machine learning, and ethical considerations in data science."
+  topics: ["Research Infrastructure","Social Mining","Ethical Data Science"]
+  home: false
+  title: "Tutorial SoBigData Lab"
+  bio: "Valerio Grossi is a Senior Researcher at ISTI-CNR. He holds a PhD in Computer Science from the University of Pisa. His research interests focus on machine learning and the analysis of massive and complex data, including data stream mining, ontology-driven mining, business intelligence, and automatic knowledge extraction systems. He is a member of SoBigData's management team."
+  day: 1
+  program: true
+- name: "Anna"
+  surname: "Monreale"
+  institution: "University of Pisa"
+  img_url:  "/assets/images/speaker_Monreale.jpg"
+  description: ""
+  topics: ["Privacy", "Data Mining", "Social Mining"]
+  home: false
+  title: ""
+  bio: "Anna Monreale is an Associate Professor at the Computer Science Department of the University of Pisa and a member of the Knowledge Discovery and Data Mining Laboratory (KDD-Lab), a joint research group with the Information Science and Technology Institute of the National Research Council in Pisa. She has been a visiting student at Department of Computer Science of the Stevens Institute of Technology (Hoboken, NewJersey, USA) (2010)."
+  day: 1
+  program: false
+
+- name: "Francesco"
+  surname: "Oleni"
+  institution: "Volley Lube"
+  img_url: "/assets/images/speaker_Oleni.png"
+  description: ""
+  topics: ["Sports Analytics", "Data Mining", "Volleyball"]
+  home: false
+  title: "Project Challenges Presentation"
+  bio: "Francesco Oleni is a volleyball analyst and assistant coach currently with Volley Lube, competing in the Italian SuperLega and the CEV Champions League. Over nearly two decades he has worked with top-level clubs and national teams across Italy, Poland, Russia, China, South Korea, Qatar, and Denmark — including roles with the men's national teams of China and Denmark and trophies such as the Korean V-League title and a CEV Cup. His work focuses on match analysis, data-driven scouting, and video analysis to support tactical decision-making at the highest competitive level."
+  day: 1
+  program: true
+- name: "Matteo"
+  surname: "Marescotti"
+  institution: "Ospedalieri Volley Pisa"
+  img_url: "/assets/images/speaker_Marescotti.png"
+  description: ""
+  topics: ["Sports Analytics", "Biokinetics", "Volleyball"]
+  home: false
+  title: "Project Challenges Presentation"
+  bio: "Matteo Marescotti is a volleyball coach currently working in Pisa with the developing  and senior team. Interested in motor learning and anatomy, he achieved a Master degree in Biokinetics at Coimbra University, with a thesis focused on the prevention of anterior cruciate ligament (ACL) injuries. His academic background is completed with a master degree in Sport Science and Techniques achieved in Genova. "
+  day: 1
+  program: true
+- name: "Pietro Ilio"
+  surname: "Gatti"
+  institution: "University of Pisa"
+  img_url: "/assets/images/speaker_Gatti.png"
+  description: ""
+  topics: ["Movement Analysis", "Neurorehabilitation", "Sport for Children"]
+  home: false
+  title: "Project Challenges Presentation"
+  bio: "Pietro Ilio Gatti is a research fellow at the University of Pisa and a therapist at the INNOVATE Laboratory, IRCCS Fondazione Stella Maris. His background integrates movement science and pediatric neurorehabilitation, with interests in child rehabilitation, movement analysis, and adapted sport for children with neurodevelopmental disabilities. "
+  day: 1
+  program: true
+
+- name: "Roberto"
+  surname: "Trasarti"
+  institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
+  img_url: "/assets/images/speaker_Trasarti.jpg"
+  description: "An overview of the scientific challenges and the roadmap of the SoBigData Research Infrastructure, focusing on the analysis of big data and social mining to understand complex social phenomena."
+  topics: ["Data Mining", "Mobility Analysis", "Research Infrastructure"]
+  home: false
+  title: "SoBigData RI: Scientific Vision and Challenges"
+  bio: "Roberto Trasarti is a Senior Researcher at ISTI-CNR and the Coordinator of the SoBigData Research Infrastructure. He holds a Ph.D. in Computer Science from the University of Pisa. His research focuses on Data Mining, Spatio-Temporal Data Analysis, Artificial Intelligence, and Automatic Reasoning. He leads the Knowledge Discovery and Delivery Laboratory's efforts in mobility analysis and social mining."
+  day: 1
+  program: true
+
+- name: "Sara"
+  surname: "Colantonio"
+  institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
+  img_url: "/assets/images/speaker_Colantonio.jpg"
+  description: "The talk will introduce how modern computer vision and AI techniques can automatically analyze human movement for physical exercise and rehabilitation. We will cover key methods for pose estimation, motion tracking, and performance assessment using video and sensor data, and discuss how these tools can detect incorrect technique, quantify progress, and personalize training and therapy."
+  topics: ["Computer Vision", "AI for Health", "Assistive Technologies"]
+  home: true
+  title: "Watching You Move: Tracking Human Movement for Exercise and Rehabilitation"
+  bio: "Senior researcher from the \"Signals and Images\" Laboratory in Pisa. Her research interests include machine learning, assistive technologies, personal informatics, and trustworthy AI. Co-authored over 120 scientific papers and coordinated FP7 projects on smart health systems. Recognized as one of the 40 Top Transformers in health (2016). Member of the international expert group AI4HI, contributing to FUTURE-AI guidelines on trustworthy AI in medical applications."
+  day: 2
+  program: true
+- name: "Salvo"
+  surname: "Rinzivillo"
+  institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
+  img_url:  "/assets/images/speaker_Rinzivillo.jpg"
+  description: "This talk introduces the concept of 'XUI' or eXplainable User Interfaces, focusing on methods for enhancing explainability with UI design to improve decision-making processes. The talk will explore how XUI can be achieved through conversational interfaces, visual interactions that progressively reveal information, and progressive disclosure strategies. Use cases demonstrating these concepts in practice will illustrate how they are applied in real-world scenarios to enhance user trust and satisfaction. By the end of this presentation, attendees will gain insights into the importance of UI design for explainability and pointers to practical tools for implementing it within their own research."
+  topics: ["XUI", "XAI","Explainable User Interfaces", "UI Design"]
+  home: false
+  title: 'Introducing XUI: Enhancing Model Reliability through eXplainable User Interfaces'
+  bio: "Salvatore Rinzivillo is a computer scientist, specialized in AI and machine learning, particularly focusing on enhancing explainability within these fields to foster trust and reliability. With a keen interest in visual representations of data, he bridges the gap between technology and understanding, making complex concepts accessible to all audiences. Beyond his professional pursuits, his background as a maker drives him to continually explore new possibilities and push boundaries in creative problem-solving."
+  day: 2
+  program: true
+- name: "Alessio"
+  surname: "Rossi"
+  institution: "Olympique de Marseille"
+  img_url: "/assets/images/speaker_Rossi2.jpg"
+  description: "Elite football clubs generate vast amounts of data. This talk will present practical examples of the types of data currently available in professional football, illustrate how they are used in real operational contexts, and explain how a Data Analytics department is structured within an elite football organisation."
+  topics: ["Sports Science", "Predictive Modelling", "Performance Analysis"]
+  home: true
+  title: "The Role of the Data Analyst in Elite Football"
+  bio: "Alessio Rossi is a sport performance data scientist with a strong background in sport science and biomedical research. He holds a PhD focused on predictive modelling in sport science. He currently works in professional football, applying data analysis, machine learning, and statistical modelling to transform datasets into actionable insights."
+  day: 3
+  program: true
+- name: "Maurizio"
+  surname: "Napolitano"
+  institution: "Fondazione Bruno Kessler (FBK)"
+  img_url: "/assets/images/speaker_Napolitano.jpg"
+  description: "Volleyball is a structured and sequential team sport in which each rally can be described as a chain of interdependent actions. This talk provides a pragmatic overview of how volleyball is currently analyzed in professional environments, describing how actions are encoded as event data and outlining the main analytical approaches used in practice."
+  topics: ["Sports Analytics", "Data Governance", "Geospatial Technologies"]
+  home: false
+  title: "Volleyball Analytics: Data and Real-World Applications"
+  bio: "Maurizio Napolitano is a technologist and head of the Digital Commons Lab unit at Fondazione Bruno Kessler, working on data governance, geospatial technologies, and artificial intelligence applied to public data. He has been a volleyball coach for over 30 years and is also a coach educator for the Italian Volleyball Federation."
+  day: 3
+  program: true 
+- name: "Francesca"
+  surname: "Naretto"
+  institution: "University of Pisa / Scuola Normale Superiore"
+  img_url: "/assets/images/speaker_Naretto.png"
+  description: "Machine learning systems hold a central role in decision-making, but ethical values like explainability, privacy and fairness are interconnected and often in tension. This talk explores these synergies, discussing post-hoc explanation approaches with privacy guarantees and fairness in decentralized settings."
+  topics: ["Explainable AI (XAI)", "Data Privacy", "Fairness"]
+  home: false
+  title: "Synergies and Tensions: Explainability, Privacy and Fairness in AI"
+  bio: "Francesca Naretto is a Researcher at the University of Pisa. She has a Ph.D. in Data Science from Scuola Normale Superiore, Italy, with a thesis on the synergies and tensions between Data Privacy and Explainability, awarded as Best Phd thesis at the ITADATA 2024 conference. Her research interests are in explainable artificial intelligence, data privacy, fairness and federated learning."
+  day: 4
+  program: true
+- name: "Jose"
+  surname: "Such"
+  institution: "Spanish National Research Council (CSIC)"
+  img_url: "/assets/images/speaker_Such.png"
+  description: "AI has had tremendous success recently in solving complex problems, but it also introduces risks. This talk focuses on privacy risks in AI-based systems from a human-centred perspective, discussing research towards making AI-based systems privacy-aware and helping users manage their privacy."
+  topics: ["Human-Centred AI", "Privacy", "Cyber Security"]
+  home: true
+  title: "Human-centred AI Privacy"
+  bio: "Prof Jose Such is Research Professor at the Spanish National Research Council (CSIC), where he leads the Human-centred AI Security, Ethics and Privacy (HASP) Lab. Previously, he was Full Professor of Computer Science at King’s College London. His research interests are at the intersection between Artificial Intelligence, Human-Computer Interaction, and Cyber Security."
+  day: 4
+  program: true
+- name: "Elena"
+  surname: "Cardillo"
+  institution: "Istituto di informatica e telematica (IIT) of the National Research Council of Italy (CNR)"
+  img_url: "/assets/images/speaker_Cardillo.jpg"
+  description: "High-quality healthcare data are the key to effective data analysis and reliable AI in medicine. This talk explores the transition from raw clinical data to interoperable knowledge, covering the regulatory and technical standards essential for semantic interoperability, as well as the use of knowledge representation (clinical ontologies) to formalize medical concepts and expertise. The session concludes by showing how structured and formalized knowledge frameworks support clinical decision making and enhance AI accuracy and trustworthiness in clinical practice."
+  topics: ["Data Science", "Machine Learning", "Nutrition"]
+  home: false
+  title: "Healthcare Data and Knowledge Representation"
+  bio: "Cardillo is a researcher at IIT-CNR since 2013. Holding a PhD in ICT (University of Trento/FBK), her research targets knowledge management, semantic interoperability, Knowledge Organization Systems, and Semantic Web technologies. She has extensive expertise in e-health, notably supporting AgID and Italian Regions in developing the national Electronic Health Record (FSE) and related semantic web services. Furthermore, she teaches Knowledge Organization for the PhD School in ICT at the University of Calabria (DIMES) and conducts LOINC training as part of the LOINC Italia working group."
+  day: 2
+  program: true
+- name: "Vasiliki"
+  surname: "Voukelatou"
+  institution: "UN World Food Programme (WFP)"
+  img_url: "/assets/images/speaker_Voukelatou.jpg"
+  description: "The United Nations World Food Programme (WFP) is the world’s largest humanitarian organization, mandated to combat hunger and promote food security worldwide. This presentation will highlight how WFP applies advanced data science for humanitarian impact, focusing on machine learning models for nutrition and food security monitoring. It will also cover research on generative AI for synthetic spatial data and geospatial methods for assessing food market accessibility."
+  topics: ["Data Science", "Machine Learning", "Nutrition"]
+  home: false
+  title: "Data Science for Nutrition and Food Security"
+  bio: "Vasiliki is a Data Scientist at the United Nations World Food Programme in Rome, where she develops machine learning models for nutrition and food security monitoring. Her work leverages data science techniques for humanitarian impact, ranging from field missions to applied research and collaborations with academia. She holds a Ph.D. in Data Science from Scuola Normale Superiore, with research on wellbeing and peace at the intersection of AI and social good"
+  day: 2
+  program: true
+- name: "Elizabeth"
+  surname: "Black"
+  institution: "King’s College London"
+  img_url: "/assets/images/speaker_Black.jpg"
+  description: "Recent advances in AI are transforming how we reason, create, and make decisions. This talk examines where these developments are taking us, discussing key risks and limitations of current AI systems, from bias to transparency challenges, and outlining steps to ensure positive and equitable impacts."
+  topics: ["Trustworthy AI", "Argumentation", "AI Ethics"]
+  home: false
+  title: "Towards Trustworthy and Responsible AI"
+  bio: "Elizabeth Black is Professor of Artificial Intelligence at King’s College London and a Turing Fellow at the Alan Turing Institute. She is Director of the UKRI Centre for Doctoral Training in Safe and Trusted AI. Her research focuses on computational models of argumentation, trustworthy AI, and the development of AI systems that uphold human values."
+  day: 3
+  program: true
+- name: "Awais"
+  surname: "Rashid"
+  institution: "University of Bristol"
+  img_url: "/assets/images/speaker_Rashid.jpg"
+  description: "This talk discusses the security implications and considerations for using LLMs in software development tasks. It looks at how professionals are utilising them, concerns about quality and security of AI generated code, and how such code should be scrutinised and validated."
+  topics: ["Cyber Security", "LLMs", "Software Engineering"]
+  home: false
+  title: "Do LLMs Dream of Elliptic Curves: Security Considerations for AI Usage"
+  bio: "Awais Rashid is Professor of Cyber Security at University of Bristol where he heads the Cyber Security Group. He is Director of the EPSRC Centre for Doctoral Training in Cyber Security and Director of the National Research Centre on Privacy, Harm Reduction and Adversarial Influence Online (REPHRAIN). His research focuses on security and privacy of large connected infrastructures."
+  day: 4
+  program: true
+- name: "Mark"
+  surname: "Coté"
+  institution: "King’s College London"
+  img_url:  "/assets/images/speaker_Cote.jpg"
+  description: "Human-AI coevolution, the process in which humans and AI algorithms continuously influence each other, increasingly characterises our society. This talk will discuss relevant studies on the impact of AI-driven recommendations on human behaviour in social media, geographic mapping, online retail and chatbot ecosystems, and the challenges of measuring and modelling the human-AI feedback loop."
+  topics: ["Data and Society", "Human-AI Interaction", "Social Data Analytics"]
+  home: false
+  title: "Human-AI Coevolution and Societal Impact"
+  bio: "Mark Coté is a Reader in Data & Society in the Department of Digital Humanities at King’s College London. His cross-disciplinary research examines the societal and governance infrastructures of data-driven AI, bringing humanities perspectives into sustained collaboration with computer science, policy and legal scholarship. He has been PI or Co-I on EPSRC, Horizon 2020 and AHRC grants totalling over £10m, and his work has informed policy and regulatory debate. He provides national and European research leadership as UK Node Lead for SoBigData (ESFRI Roadmap) and as a PI and Strategic Board member of REPHRAIN, the UKRI national research centre on privacy, harm reduction and adversarial influence online. His work is widely published across disciplines, including in Big Data & Society and IEEE venues, and has been invited to international keynotes and conferences."
+  day: 5
+  program: true
+- name: "Michela"
+  surname: "Natilli"
+  institution: "Institute of Information Science and Technologies (ISTI) of the National Research Council of Italy (CNR)"
+  img_url:  "/assets/images/speaker_Natilli.jpg"
+  description: "This presentation will introduce the SoBigData RI, a Pan-European platform enabling responsible big data analytics for social good, and its role in advancing ethical data science. It will also highlight the key themes of the SoBigData Summer School 2026. The school will offer hands-on training in information, political, and social dynamics alongside discussions on the European research framework."
+  topics: ["Research Infrastructure","Social Mining","Ethical Data Science"]
+  home: false
+  title: "Introduction to SoBigData RI and Summer School 2026"
+  bio: "She is in the management team of the SoBigData Research Infrastructure, the European Research Infrastructure for Big Data and Social Mining and she is the Research Infrastructure Manager of SoBigData.it. A statistician, graduated in Statistics and Economics at University of Siena, she got a master of Science (M.Sc.) from University of Pisa in Big Data Analytics and Social Mining in 2015."
+  day: 5
+  program: false

@@ -1,0 +1,55 @@
+aim: |
+  The Summer School aims to equip researchers, data scientists, and social scientists with an interdisciplinary understanding and skill set to address complex societal challenges. By <strong>blending technical training in data analysis, machine learning, and artificial intelligence with an ethical perspective</strong>, the program empowers the students in facing today's pressing societal challenges with a balanced approach that combines innovative data methodologies, stakeholder awareness, and a commitment to responsible, transparent practices. 
+
+
+
+
+aim_extended: |
+  Over <strong>four themed days</strong>, the SoBigData Summer School bridges the gap between advanced data methodologies and pressing societal needs. The core objective is to empower participants to tackle complex problems with a balanced, responsible approach, leveraging the tools and resources provided by the <strong>SoBigData Research Infrastructure</strong>.
+
+  A distinctive feature of the program is its <strong>direct engagement with external stakeholders</strong>. The practical projects developed throughout the week are not mere academic exercises; they are driven by <strong>real-world social challenges</strong> proposed directly by partner companies and associations. By addressing these specific use-cases, attendees learn to combine technical excellence with stakeholder awareness and transparent, ethical data practices.
+
+topics:
+  - Data Science
+  - Artificial Intelligence
+  - Machine Learning
+  - Social Network Analysis
+  - Wellbeing
+  - Health Data
+  - Sport Analytics
+  - Fairness
+  - Agentic AI
+  - Open Science
+
+target_attendees:
+  - Postgraduate Students
+  - PhD Students
+  - Researchers
+  - Social Scientists
+
+
+registration:
+  early:
+    deadline: "30 April 2026"
+    description: "Early registration"
+  late:
+    start: "1 May 2026"
+    deadline: "31 May 2026"
+    description: "Late registration will have an additional cost"
+
+days:
+  - day: "Day 1: SoBigData RI and Project Challenges"
+    description: |
+      The opening day introduces participants to the SoBigData Research Infrastructure, providing a clear overview of the tools, services, and opportunities it offers to the research and data science community. Experts will present how SoBigData supports interdisciplinary research and fosters collaboration across domains. The day also features presentations from companies and associations that will outline real-world social challenges. These case studies will serve as inspiration and starting points for the group projects that participants will develop throughout the summer school, helping to ground the technical work in concrete societal needs.
+  - day: "Day 2: Health and Wellbeing"
+    description: |
+     The second day focuses on the rapidly evolving intersection between artificial intelligence and healthcare, with particular attention to personal wellbeing and the responsible use of health data. Participants will explore how data analysis and visualization techniques can be applied to understand health trends, support clinical decision-making, and promote preventive care. Through expert lectures and practical examples, the sessions will highlight both the opportunities and the challenges of working with sensitive health information, emphasizing methodological rigor and ethical awareness.
+  - day: "Day 3: Sport Analytics and Agentic AI"
+    description: |
+     This day is dedicated to data-driven approaches in sports and the emerging paradigm of agentic AI. Participants will learn how advanced analytics can be applied to domains such as soccer and volleyball, including performance analysis, tactical evaluation, and injuries prediction. In parallel, the concept of agentic AI will be introduced, focusing on systems capable of autonomous or semi-autonomous decision-making. By combining sports case studies with AI methodology, the day provides a dynamic environment to understand how intelligent systems can support complex, real-time analytical tasks.
+  - day: "Day 4: Privacy, Fairness and Security"
+    description: |
+     This day addresses the critical themes of privacy, security, fairness, and responsibility in data science. Participants will examine the ethical and legal requirements involved in collecting, processing, and modeling data, with special attention to possible mitigation, transparency, and compliance with data protection regulations. Through lectures and discussions, the sessions will emphasize best practices for building trustworthy and socially responsible AI systems. This concluding theme encourages participants to integrate ethical reflection into every stage of the data science pipeline, reinforcing the importance of responsible innovation.
+  - day: "Day 5: Project Presentations and Closing Remarks"
+    description: |
+     The final day of the summer school is dedicated to the presentation of the projects developed by the participants throughout the week. Each group will have the opportunity to showcase their work, demonstrating how they applied the methodologies learned to address the real-world challenges proposed by the partner companies and associations. The presentations will be followed by feedback sessions, where experts and peers will provide constructive insights. The day will conclude with closing remarks that reflect on the key takeaways from the program and outline future opportunities for collaboration and research within the SoBigData community.

@@ -1,0 +1,328 @@
+headers:
+- "TIME"
+- "Sunday 21"
+- "Monday 22"
+- "Tuesday 23"
+- "Wednesday 24"
+- "Thursday 25"
+- "Friday 26"
+
+activities:
+- time: "09:00 09:30"
+  sunday:
+    content:
+      icon: "comments"
+      text: "**Internal meeting for the organization**"
+    rowspan: 13
+  monday:
+    content:
+      icon: "id-card"
+      text: "**Registration**"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  wednesday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  thursday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  friday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+
+- time: "09:30 10:00"
+  monday:
+    content:
+      icon: "comments"
+      text: "**Round of presentations** (Students)"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "comment"
+      text: "**Sara Colantonio**<br>AI and Health"
+    rowspan: 3
+  wednesday:
+    content:
+      icon: "comment"
+      text: "**Alessio Rossi**<br>Sport Analytics on Football"
+    rowspan: 3
+  thursday:
+    content:
+      icon: "comment"
+      text: "**Jose Such**<br>Human-centred AI Privacy"
+    rowspan: 3
+  friday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+
+- time: "10:00 10:30"
+  monday:
+    content:
+      icon: "comment"
+      text: "**Roberto Trasarti**<br>**Salvatore Ruggieri**<br>SoBigData RI & School Introduction"
+    rowspan: 1
+  friday:
+    content:
+      icon: "comment"
+      text: "**Projects Presentations**<br>chaired by Mark Coté"
+    rowspan: 2
+
+- time: "10:30 11:00"
+  monday:
+    content:
+      icon: "comment"
+      text: "**Valerio Grossi**<br>Tutorial SoBigData Lab"
+    rowspan: 1
+
+- time: "11:00 11:30"
+  monday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  wednesday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  thursday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  friday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  class: break
+
+- time: "11:30 12:00"
+  monday:
+    content:
+      icon: "comment"
+      text: "**Project Challenges Presentation**<br> by Lorenzo Mannocci, Francesco Oleni, Pietro Ilio Gatti"
+    rowspan: 2
+  tuesday:
+    content:
+      icon: "comment"
+      text: "**Elena Cardillo**<br>Healthcare Data and Knowledge Representation"
+    rowspan: 1
+  wednesday:
+    content:
+      icon: "comment"
+      text: "**Maurizio Napolitano**<br>Volleyball Analytics"
+    rowspan: 2
+  thursday:
+    content:
+      icon: "comment"
+      text: "**Francesca Naretto**<br>Privacy, Fairness and XAI"
+    rowspan: 2
+  friday:
+    content:
+      icon: "comments"
+      text: "**Projects Presentations**<br>chaired by Mark Coté. Evaluators: Francesca Naretto, Anna Monreale, Francesco Oleni, Pietro Ilio Gatti"
+    rowspan: 4
+
+- time: "12:00 12:30"
+  tuesday:
+    content:
+      icon: "comment"
+      text: "**Salvatore Rinzivillo**<br>Visualization Health"
+    rowspan: 2
+
+- time: "12:30 12:45"
+  monday:
+    content:
+      icon: "comment"
+      text: "**Group decision challenge**"
+    rowspan: 2
+  wednesday:
+    content:
+      icon: "comment"
+      text: "**Elisabeth Black**<br>Towards trustworthy and responsible AI"
+    rowspan: 2
+  thursday:
+    content:
+      icon: "comment"
+      text: "**Awais Rashid**<br>“Do LLMs dream of Elliptic Curves”: Security considerations for AI usage in software development"
+    rowspan: 2
+
+- time: "12:45 13:30"
+  tuesday:
+    content:
+      icon: "comment"
+      text: "**Vasiliki Voukelatou**<br>Wellbeing"
+    rowspan: 1
+
+- time: "13:30 15:00"
+  monday:
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
+  wednesday:
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
+  thursday:
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
+  friday:
+    content:
+      icon: "cutlery"
+      text: "**Lunch Break**"
+    rowspan: 1
+  class: break
+
+- time: "15:00 16:00"
+  monday:
+    content:
+      icon: "laptop"
+      text: "**Developing Student Projects with Tutors**"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "laptop"
+      text: "**Developing Student Projects with Tutors**"
+    rowspan: 1
+  wednesday:
+    content:
+      icon: "laptop"
+      text: "**Developing Student Projects with Tutors**"
+    rowspan: 1
+  thursday:
+    content:
+      icon: "laptop"
+      text: "**Developing Student Projects with Tutors**"
+    rowspan: 1
+  friday:
+    content:
+      icon: "handshake"
+      text: "**Internal Meeting**<br>SoBigData RI"
+    rowspan: 3
+
+- time: "16:00 16:30"
+  monday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  wednesday:
+    content:
+      icon: "handshake"
+      text: "**Free Afternoon**"
+    rowspan: 4
+  thursday:
+    content:
+      icon: "coffee"
+      text: "**Coffee Break**"
+    rowspan: 1
+  class: break
+
+- time: "16:30 18:00"
+  monday:
+    content:
+      icon: "laptop"
+      text: "**Developing Student Projects with Tutors**"
+    rowspan: 1
+  tuesday:
+    content:
+      icon: "laptop"
+      text: "**Developing Student Projects with Tutors**"
+    rowspan: 1
+  thursday:
+    content:
+      icon: "laptop"
+      text: "**Developing Student Projects with Tutors**"
+    rowspan: 1
+
+- time: "18:00 18:30"
+  sunday:
+    content:
+      icon: 
+      text: 
+    rowspan: 1
+  monday:
+    content:
+      icon: 
+      text: 
+    rowspan: 2
+  tuesday:
+    content:
+      icon: "handshake"
+      text: "**Social Event**<br>Petra winery tour and dinner"
+    rowspan: 3
+  thursday:
+    content:
+      icon: 
+      text: 
+    rowspan: 2
+  friday:
+    content:
+      icon: 
+      text: 
+    rowspan: 2
+
+- time: "18:30 20:30"
+  sunday:
+    content:
+      icon: "handshake"
+      text: "**Welcome Cocktail <br>and dinner**"
+    rowspan: 2
+
+
+
+
+- time: "20:30"
+  monday:
+    content:
+      icon: "cutlery"
+      text: "**Dinner**<br>Serata Toscana"
+    rowspan: 1
+  wednesday:
+    content:
+      icon: "cutlery"
+      text: "**Dinner**<br>Serata Mare"
+    rowspan: 1
+  thursday:
+    content:
+      icon: "handshake"
+      text: "**Social Event**<br>Pizza and DJ set"
+    rowspan: 1
+  friday:
+    content:
+      icon: ""
+      text: ""
+    rowspan: 1
+  class: break
