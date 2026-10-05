@@ -5,10 +5,10 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "21-27 June 2026 – Baratti (Piombino) – TUSCANY (Italy)"
+subtitle: "20-25 June 2027 – Baratti (Piombino) – TUSCANY (Italy)"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/poggio.jpg
-header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
+header_title: "Complex Social Systems<br> in the Age of AI"
 
 ---
 
@@ -21,10 +21,10 @@ header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
         <div class="row pt-2 ">
             <div class="col-md-8 offset-md-2 col-sm-12">
                 <h3>The venue</h3>
-                <p class="lead" style="text-align:justify">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="https://www.poggioallagnello.it/en/">Poggio all’Agnello </a> is a fully equipped resort that will host the 2026 edition of the SoBigData Summer school.</p>
+                <p class="lead" style="text-align:justify">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="https://www.poggioallagnello.it/en/">Poggio all’Agnello </a> is a fully equipped resort that will host the 2027 edition of the SoBigData Summer school.</p>
                 <p>The venue has:</p>
                     <ul>
-                        <li>Fully equipped conference rooms</li>
+                        <li>Fully equipped conference rooms: the main "Baratti" room (200 m², up to 220 people, divisible into three spaces) and the smaller "Populonia" room, all with audio-visual equipment and Wi-Fi</li>
                         <li>Outside facilities for communal work in a 10 hectare-park</li>
                         <li>An Olympic size swimming pool and two smaller swimming pools</li>
                         <li>Facilities for children and families</li>
@@ -112,8 +112,8 @@ header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
 Once at the Populonia train station, <a href="http://tinyurl.com/2x66rzn6"> venue is 500 metres away</a>
                     </p>
                     <ul>
-                        <li><i class="fas fa-plane"></i> BY PLANE: The nearest airports are Pisa or Rome. From there you have to take a train or rent a car.</li>
-                        <li><i class="fas fa-train"></i> BY TRAIN: The nearest train station is “Populonia”. You can buy your ticket for the train directly at “Pisa Centrale” or “Roma Termini” stations (or book it on</li> www.trenitalia.com two month before, otherwise it is not available on the website). 
+                        <li><i class="fas fa-plane"></i> BY PLANE: The nearest airports are Pisa (about 96 km) and Florence (about 152 km), both connected to the railway network. From there you can take a train or rent a car.</li>
+                        <li><i class="fas fa-train"></i> BY TRAIN: The nearest train station is “Populonia”, a few metres from the venue; the other main station nearby is Campiglia Marittima (about 9 km). You can buy your ticket for the train directly at “Pisa Centrale” or “Roma Termini” stations (or book it on</li> www.trenitalia.com two month before, otherwise it is not available on the website). 
                         <li><i class="fas fa-car"></i> BY CAR: The address is “Loc. Poggio all’Agnello, 31 · 57025 Piombino (LI) Tuscany”</li>
                     </ul>
                     {% assign venue = "

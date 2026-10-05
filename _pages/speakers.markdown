@@ -5,8 +5,8 @@
 layout: default-full
 title: "Speakers"
 show_sidetoc: true
-subtitle: "21-27 June 2026 – Baratti (Piombino) – TUSCANY (Italy)"
-header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
+subtitle: "20-25 June 2027 – Baratti (Piombino) – TUSCANY (Italy)"
+header_title: "Complex Social Systems<br> in the Age of AI"
 ---
 
 <div class="full-width-wrapper">
@@ -20,9 +20,12 @@ header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
                 <h2>Speakers</h2>
                 <hr>
                 <p class="lead">
-                    Our program features an international panel of researchers, academics, and industry professionals. During the morning sessions, these experts will guide attendees through state-of-the-art methodologies, addressing the intersection of AI, human-centric design, and privacy.
+                    Our program features an international panel of researchers, academics, and industry professionals. During the morning sessions, these experts will guide attendees through state-of-the-art methodologies, addressing the empirical analysis, modelling and design of socio-technical systems in which humans and AI coevolve.
                 </p>
                 <hr>
+                {% if site.data.speaker-cards.size == 0 %}
+                <p><em>The list of speakers will be announced soon.</em></p>
+                {% endif %}
                 <div class="container py-3" id="speakers-container">
                 {% assign sorted_speakers = site.data.speaker-cards | sort: "day" %}
                 {% for day_info in site.data.school-info.days %}
@@ -80,6 +83,9 @@ header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
                     Students will have the opportunity to interact with tutors during the afternoon sessions, which will be dedicated to hands-on activities and project work. These tutors will provide guidance and support as students apply the concepts learned in the morning sessions to real-world challenges.
                 </p>
                 <hr>
+                {% if site.data.tutors-cards.size == 0 %}
+                <p><em>The list of tutors will be announced soon.</em></p>
+                {% endif %}
                 <div class="container py-3" id="speakers-container">
                     <div class="day-section">
                         <h3 class="day-title">{{ day_info.day }}</h3>

@@ -1,11 +1,11 @@
 headers:
 - "TIME"
-- "Sunday 21"
-- "Monday 22"
-- "Tuesday 23"
-- "Wednesday 24"
-- "Thursday 25"
-- "Friday 26"
+- "Sunday 20"
+- "Monday 21"
+- "Tuesday 22"
+- "Wednesday 23"
+- "Thursday 24"
+- "Friday 25"
 
 activities:
 - time: "09:00 09:30"

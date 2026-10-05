@@ -5,8 +5,8 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "21-27 June 2026 – Baratti (Piombino) – TUSCANY (Italy)"
-header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
+subtitle: "20-25 June 2027 – Baratti (Piombino) – TUSCANY (Italy)"
+header_title: "Complex Social Systems<br> in the Age of AI"
 ---
 
 <style>

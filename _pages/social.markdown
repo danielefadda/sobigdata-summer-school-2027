@@ -5,10 +5,10 @@
 layout: default-full
 title: "Home"
 show_sidetoc: true
-subtitle: "21-27 June 2026 – Baratti (Piombino) – TUSCANY (Italy)"
+subtitle: "20-25 June 2027 – Baratti (Piombino) – TUSCANY (Italy)"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/poggio.jpg
-header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
+header_title: "Complex Social Systems<br> in the Age of AI"
 
 ---
 
@@ -23,7 +23,7 @@ header_title: "Data Analysis and AI <br>in Sport, Health and Wellbeing"
                 <h3>Social program </h3>
                 <p class="lead" style="text-align:justify">The social program is structured as follows:</p>
                     <ul>
-                        <li>A welcome cocktail on Sunday late afternoon 21 June 2026</li>
+                        <li>A welcome cocktail on Sunday late afternoon, 20 June 2027</li>
 <li>Visit to the award-winning <a href="https://www.petrawine.it/en/home-english/" target="_blank"> Petra Winery</a>: a guided tour of the vineyards and the winery designed by architect Mario Botta and a dinner with wine tasting.</li>
 <li>A dj-set night with pizza to celebrate the end of the school in an informal setting within the Poggio all’Agnello venue</li>
                     </ul>

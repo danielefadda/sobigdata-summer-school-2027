@@ -3,29 +3,29 @@
   day: "SoBigData RI and Project challenges"
   title: "SoBigData RI & Project Challenges"
   icon: "icon-network" # Da mappare con i token SVG del design system
-  description:  "Introduction to the SoBigData Research Infrastructure followed by the presentation of real-world social challenges by companies and associations to inspire collaborative projects."
-  tags: ["Infrastructure", "Use Cases", "Collaboration"]
+  description:  "Introduction to the SoBigData Research Infrastructure and to human–AI coevolution, followed by the presentation of the project challenges proposed by researchers and domain experts."
+  tags: ["Infrastructure", "Challenges", "Collaboration"]
 
 - id: theme-2
   day-number: 2
-  day: "Health and Wellbeing Analytics"
-  title: "Health and Wellbeing"
-  icon: "icon-heart-pulse"
-  description: "Exploration of the intersection between AI and healthcare, analyzing personal wellbeing and health data through advanced data analysis and visualization techniques."
-  tags: ["Healthcare", "Visual Analytics", "AI"]
+  day: "Measuring Human–AI Coevolution"
+  title: "Measuring Human–AI Coevolution"
+  icon: "icon-chart-line"
+  description: "Empirical analysis of coevolution patterns on online platforms: feedback loops between users and algorithms and their effects on polarization, bias and inequality."
+  tags: ["Online Platforms", "Data Analysis", "Feedback Loops"]
 
 - id: theme-3
   day-number: 3
-  day: "Sport Analytics and Agentic AI"
-  title: "Sport Analytics & Agentic AI"
-  icon: "icon-chart-line"
-  description: "Data-driven approaches in sports analytics (soccer, volleyball) combined with the application of emerging agentic AI methodologies."
-  tags: ["Sport Analytics", "Agentic AI", "Data-Driven"]
+  day: "Modelling Socio-technical Systems"
+  title: "Modelling Socio-technical Systems"
+  icon: "icon-network"
+  description: "Theoretical and computational models of the socio-technical mechanisms that drive collective dynamics when humans and algorithms coevolve."
+  tags: ["Complex Systems", "Network Models", "Simulation"]
 
 - id: theme-4
   day-number: 4
-  day: "Privacy, Fairness and Security"
-  title: "Privacy, Fairness and Security"
+  day: "Interventions and Algorithm Design"
+  title: "Interventions & Algorithm Design"
   icon: "icon-shield"
-  description: "Critical analysis of the ethical implications in data science. Focus on privacy-preserving frameworks, data security, and algorithmic accountability."
-  tags: ["Privacy", "Ethics", "Security"]
+  description: "Interventions and algorithm design to reconcile users' individual goals with collective wellbeing, with attention to fairness, transparency and ethics."
+  tags: ["Algorithm Design", "Collective Wellbeing", "Responsible AI"]

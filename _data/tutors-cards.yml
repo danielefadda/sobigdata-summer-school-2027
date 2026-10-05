@@ -1,15 +1,2 @@
-- name: "Giovanni"
-  surname: "Mauro"
-  institution: "Scuola Normale Superiore of Pisa"
-  img_url:  "/assets/images/speaker_Mauro.jpg"
-  bio: "Giovanni Mauro (born 1995, Catanzaro) is a Postdoctoral Researcher at Scuola Normale Superiore. Having completed his PhD in Artificial Intelligence, he currently investigates urban dynamics and human mobility flows. His specific focus is on housing relocation phenomena such as spatial segregation and gentrification, as well as the broader urban impact of Artificial Intelligence."
-- name: "Virginia"
-  surname: "Morini"
-  institution: "University of Pisa"
-  img_url:  "/assets/images/speaker_Morini.jpg"
-  bio: "Virginia Morini is a Postdoctoral Researcher at the University of Pisa, Italy. She obtained her Ph.D. in AI for Society in May 2025, with a focus on computational social science methods applied to the study of complex social dynamics on online social platforms. Her research investigates the coevolution between users and algorithmic systems on social media, examining how recommender systems and platform dynamics shape phenomena such as echo chambers, polarization, and visibility inequalities, as well as supportive interactions including social support and self-disclosure within online mental health communities."
-- name: "Lorenzo"
-  surname: "Mannocci"
-  institution: "University of Pisa"
-  img_url:  "/assets/images/speaker_Mannocci.jpg"
-  bio: "Lorenzo Mannocci is Postdoctoral Researcher at the University of Pisa, working on TANGO project, on Hybrid Artificial Intelligence models. He received his PhD in Artificial Intelligence in 2025, focusing on AI and network science models for detecting coordinated behavior on online social networks. During his PhD, he completed research visits at Uppsala University, Sweden, collaborating with Prof. Matteo Magnani on multimodal coordination. He holds an MSc with honors in Data Science and Business Informatics and a BSc in Computer Engineering from the University of Pisa."
+# Tutor 2027 da definire. I dati 2026 sono recuperabili dalla history git (commit 2f482d7).
+[]

@@ -1,6 +1,6 @@
 # SoBigData Summer School Website
 
-Questo repository contiene il sito web della Summer School SoBigData 2026, sviluppato con Jekyll.
+Questo repository contiene il sito web della Summer School SoBigData 2027, sviluppato con Jekyll.
 
 ## Pipeline di Pubblicazione
 
@@ -28,7 +28,7 @@ L'ambiente di certificazione è ospitato su GitHub Pages e permette la revisione
    ```
 
 2. Le modifiche saranno automaticamente visibili all'indirizzo:  
-   https://danielefadda.github.io/sobigdata-summer-school-2026/
+   https://danielefadda.github.io/sobigdata-summer-school-2027/
 
 ### Ambiente di Produzione
 
@@ -48,11 +48,11 @@ Una volta approvate le modifiche in certificazione, è possibile procedere con l
 3. Pubblicare il sito in produzione via SSH:
    ```bash
    # Esempio di comando scp (da adattare in base alla configurazione del server)
-   scp -r _site/* user@server:/path/to/sobigdata-summerschool2026/
+   scp -r _site/* user@server:/path/to/sobigdata-summerschool2027/
    ```
 
 4. Il sito sarà disponibile all'indirizzo:  
-   https://summerschool2026.sobigdata.eu/
+   https://summerschool2027.sobigdata.eu/
 
 ## Struttura delle Configurazioni
 

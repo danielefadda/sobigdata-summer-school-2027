@@ -5,10 +5,10 @@
 layout: default-full
 title: "Home"
 show_sidetoc: false
-subtitle: "21-27 June 2026 – Baratti (Piombino) – TUSCANY (Italy)"
+subtitle: "20-25 June 2027 – Baratti (Piombino) – TUSCANY (Italy)"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/pool-1.jpg
-header_title: "Data Analysis and AI<br> in Sport, Health and Wellbeing"
+header_title: "Complex Social Systems<br> in the Age of AI"
 ---
 
 <div class="full-width-wrapper">
@@ -20,7 +20,7 @@ header_title: "Data Analysis and AI<br> in Sport, Health and Wellbeing"
         <div class="row pt-2">
             <div class="col-md-8 offset-md-2 col-sm-12">
                <h3>
-The Summer School aims to equip researchers, data scientists and social scientists with the methodologies and insights necessary to address complex societal challenges.
+Data, Models and Human–AI Coevolution: how algorithms and people shape each other, and how to steer this process towards collective wellbeing.
 </h3>
             </div>
         </div>
@@ -43,10 +43,10 @@ The Summer School aims to equip researchers, data scientists and social scientis
         <div class="row pt-2">
             <div class="col-md-8 offset-md-2 col-sm-12">
                 <p>
-                The Summer School provides a unique <strong>interdisciplinary mixture</strong> where participants can explore state-of-the-art tools in <strong>data analysis, machine learning, and artificial intelligence</strong>. The school will have lessons from experts during the morning and will leave the afternoon to <strong>group work guided by dedicated tutors</strong> helping them in defining and developing their project which will be evaluated at the end of the school by a panel of experts.</p>
+                The Summer School provides a unique <strong>interdisciplinary mixture</strong> where participants can explore state-of-the-art methods in <strong>data analysis, modelling and artificial intelligence</strong> applied to complex social systems. Lectures by experts take place in the morning, while the afternoon is dedicated to <strong>group work on project challenges, guided by dedicated tutors</strong>. Projects are presented on the last day and evaluated by a panel of experts.</p>
                 <hr>
                 <p>
-                <strong>Expert-led lectures</strong> will guide attendees through real-world applications of big data and AI, fostering innovative solutions. Alongside technical skill-building, participants engage in <strong>ethical and governance discussions</strong> that highlight the responsible use of data.
+                <strong>Expert-led lectures</strong> will guide attendees through the empirical analysis of coevolution patterns on online platforms, the computational modelling of socio-technical mechanisms, and the design of interventions and algorithms that reconcile individual goals with <strong>collective wellbeing</strong>.
                 </p>
             </div>
         </div>
@@ -63,11 +63,11 @@ The Summer School aims to equip researchers, data scientists and social scientis
             </div>
         <div class="col-md-6 col-sm-12">
             <h3>WHERE</h3>
-            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}{% link _pages/venue.markdown %}.html">Poggio all’Agnello </a> is a fully equipped resort that will host the 2026 edition of the SoBigData Summer school.
+            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}{% link _pages/venue.markdown %}.html">Poggio all’Agnello </a> is a fully equipped resort that will host the 2027 edition of the SoBigData Summer school.
             </p>
             <h3>Registration & Deadline</h3>
-            <p>Early registration until {{ site.data.school-info.registration.early.deadline }}.</p>
-            <p><strong>Late registration between {{ site.data.school-info.registration.late.start }} and {{ site.data.school-info.registration.late.deadline }} will have an additional cost.</strong></p>
+            <p>The school is open to a maximum of <strong>{{ site.data.school-info.max_participants }} participants</strong>. PhD students of the <a href="https://www.phd-ai.it/" target="_blank">Italian National PhD Program in AI</a> have a <strong>pre-registration window</strong> opening 20 days before public registration.</p>
+            <p>Registration dates will be announced soon.</p>
             </div>
         </div>
     </div>
@@ -106,6 +106,8 @@ The Summer School aims to equip researchers, data scientists and social scientis
     </div>
 </div>
 
+{% assign home_speakers = site.data.speaker-cards | where: "home", true %}
+{% if home_speakers.size > 0 %}
 <div class=" container-fluid my-5 pt-2 pb-5 bg-color-full bg-color">
     <div class="container">
         <div class="row">
@@ -124,6 +126,7 @@ The Summer School aims to equip researchers, data scientists and social scientis
     container='fluid' 
 %}
 </div>
+{% endif %}
 
 <div class="container cta">
         <div class="row py-5">
