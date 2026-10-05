@@ -1,5 +1,5 @@
 baseurl: ""
-url: "https://summerschool2026.sobigdata.eu"
+url: "https://summerschool2027.sobigdata.eu"
 defaults:
   - scope:
       path: ""
