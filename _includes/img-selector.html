@@ -4,7 +4,7 @@
     <div class="row pt-2">
         <div class="col-md-2 offset-md-2 col-sm-12">
             {% for image in dataset %}
-            <button class="btn btn-primary btn-block image-button" data-url="{{site.baseurl}}/{{ image[include.url] }}">{{ image[include.button_name] }}</button>
+            <button class="btn btn-primary btn-block image-button" data-url="{{ image[include.url] | relative_url }}">{{ image[include.button_name] }}</button>
             {% endfor %}
         </div>
         <div class="col-md-6 col-sm-12">

@@ -9,7 +9,7 @@
                         {% if image_key and card[image_key] %}
                             <div class="card-img">
                                 <img
-                                    src="{{ site.baseurl }}{{ card[image_key] }}"
+                                    src="{{ card[image_key] | relative_url }}"
                                     class="card-img-top"
                                     alt="{{ card[include.name] | escape }}"
                                 >

@@ -16,7 +16,7 @@
     <div class="{% if include.dimension == 'small' %}col-md-8 offset-md-2 col-sm-12{% else %}col-md-12{% endif %}">
         {{ include.content | markdownify }}
         {% if chart %}
-        <vegachart schema-url="{{ site.baseurl }}/assets/charts/{{ chart }}" style="width: 100%"></vegachart>
+        <vegachart schema-url="{{ '/assets/charts/' | append: chart | relative_url }}" style="width: 100%"></vegachart>
         {% endif %}
     </div>
 </div>

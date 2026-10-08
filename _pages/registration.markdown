@@ -10,7 +10,7 @@ header_title: "Complex Social Systems<br> in the Age of AI"
 ---
 
 <div class="full-width-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
+    <img src="{{ '/assets/images/header.svg' | relative_url }}" alt="sbd-pattern" class="full-width-image">
 </div>
 
 <style>

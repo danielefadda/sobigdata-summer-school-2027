@@ -6,3 +6,5 @@ defaults:
       path: ""
     values:
       sitemap: false
+
+pure_relative_paths: true

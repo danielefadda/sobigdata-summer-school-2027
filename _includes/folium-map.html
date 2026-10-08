@@ -1,1 +1,1 @@
-<iframe src="{{site.baseurl}}/assets/charts/{{include.folium-map}}" width="{{include.width  | default: '100%'  }}" height="{{include.height   | default: '400px'  }}" ></iframe>
+<iframe src="{{ '/assets/charts/' | append: include.folium-map | relative_url }}" width="{{include.width  | default: '100%'  }}" height="{{include.height   | default: '400px'  }}" ></iframe>

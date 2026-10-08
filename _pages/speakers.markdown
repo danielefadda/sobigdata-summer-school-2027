@@ -10,7 +10,7 @@ header_title: "Complex Social Systems<br> in the Age of AI"
 ---
 
 <div class="full-width-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
+    <img src="{{ '/assets/images/header.svg' | relative_url }}" alt="sbd-pattern" class="full-width-image">
 </div>
 
 <div class="registration">
@@ -48,7 +48,7 @@ header_title: "Complex Social Systems<br> in the Age of AI"
                         {% for speaker in day_speakers %}
                         <div class="row py-3 my-3 project" >
                             <div class="col-md-4">
-                                <div class="project-img"><img src="{{site.baseurl}}{{ speaker.img_url}}" alt="{{ speaker.name }}" style="width:100%"></div>
+                                <div class="project-img"><img src="{{ speaker.img_url | relative_url }}" alt="{{ speaker.name }}" style="width:100%"></div>
                             </div>
                             <div class="col-md-8">
                                 <div class="project-body">
@@ -92,7 +92,7 @@ header_title: "Complex Social Systems<br> in the Age of AI"
                         {% for tutor in site.data.tutors-cards %}
                         <div class="row py-3 my-3 project" >
                             <div class="col-md-4">
-                                <div class="project-img"><img src="{{site.baseurl}}{{ tutor.img_url}}" alt="{{ tutor.name }}" style="width:100%"></div>
+                                <div class="project-img"><img src="{{ tutor.img_url | relative_url }}" alt="{{ tutor.name }}" style="width:100%"></div>
                             </div>
                             <div class="col-md-8">
                                 <div class="project-body">

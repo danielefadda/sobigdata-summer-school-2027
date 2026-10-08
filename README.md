@@ -62,6 +62,23 @@ Il sito utilizza file di configurazione specifici per ogni ambiente:
 - `_config_dev.yml`: Configurazioni specifiche per l'ambiente di sviluppo
 - `_config_dist.yml`: Configurazioni specifiche per l'ambiente di produzione
 
+## Link relativi
+
+I plugin in `_plugins/` (importati da [sbd-master-website](https://github.com/danielefadda/sbd-master-website)) ridefiniscono il filtro `relative_url`:
+
+- `pure_relative_paths: false` (default in `_config.yml`, usato da `jekyll serve` e da GitHub Pages, che ignora i plugin custom): `relative_url` si comporta come lo standard Jekyll e usa `baseurl`.
+- `pure_relative_paths: true` (attivo in `_config_dist.yml` e `_config_dist_test.yml`): `relative_url` genera percorsi relativi alla pagina corrente (es. `assets/...`, `../assets/...`), quindi il sito funziona da qualsiasi sottocartella indipendentemente da `baseurl`. I link interni assoluti generati dal tema (CSS, feed, gallerie) vengono resi relativi in post-render; canonical, `og:` e JSON-LD restano assoluti.
+
+Regole pratiche:
+
+- Per pagine e asset interni usare sempre `relative_url`:
+   - `{{ '/venue.html' | relative_url }}`
+   - `{{ '/assets/images/logo.png' | relative_url }}`
+   - con variabili: `{{ speaker.img_url | relative_url }}`, `{{ '/assets/charts/' | append: chart | relative_url }}`
+- Non usare `{{ site.baseurl }}/...` né percorsi hardcoded che iniziano con `/` dentro `href` o `src`.
+- Usare `absolute_url` solo dove serve un URL completo (es. `og:image`, servizi esterni).
+- Per link esterni (`https://...`) lasciare l'URL completo senza filtri.
+
 ## Note Importanti
 
 - Effettuare sempre i test in ambiente locale (dev) prima di procedere con il merge in certificazione

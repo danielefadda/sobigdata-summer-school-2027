@@ -36,8 +36,8 @@ github_repo:
 
 markdown: kramdown
 
-baseurl: "/sobigdata-summer-school-2027"
-url: "https://danielefadda.github.io"
+baseurl: ""
+url: ""
 
 
 
@@ -45,8 +45,8 @@ navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
     title :  "SoBigData Summer School 2027"
-    img: "./assets/images/Logo_masthead.png"
-    url: /
+    img: "/assets/images/Logo_masthead.png"
+    url: /index.html
   nav:
     - title: Program
       url: /schedule.html
@@ -142,6 +142,11 @@ exclude:
 include:
   - .nojekyll
 livereload: true
+
+# Link relativi (vedi _plugins/pure_relative_url.rb e _plugins/post_render_fix_relative_assets.rb).
+# false: relative_url si comporta come lo standard Jekyll (usa baseurl) -> compatibile con `jekyll serve` e GitHub Pages.
+# true: relative_url genera percorsi relativi alla pagina corrente (es. ../assets/...) -> sito portabile in qualsiasi sottocartella.
+pure_relative_paths: false
 
 remote_theme: dieghernan/chulapa
 

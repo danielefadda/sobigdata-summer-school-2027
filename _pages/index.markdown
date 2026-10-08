@@ -7,12 +7,12 @@ title: "Home"
 show_sidetoc: false
 subtitle: "20-25 June 2027 – Baratti (Piombino) – TUSCANY (Italy)"
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/pool-1.jpg
+header_img: assets/images/human-ai-coevolution.jpeg
 header_title: "Complex Social Systems<br> in the Age of AI"
 ---
 
 <div class="full-width-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
+    <img src="{{ '/assets/images/header.svg' | relative_url }}" alt="sbd-pattern" class="full-width-image">
 </div>
 
 <div class="introduction">
@@ -59,11 +59,11 @@ Data, Models and Human–AI Coevolution: how algorithms and people shape each ot
     <div class="container">
         <div class="row pt-2 ">
             <div class="col-md-6 col-sm-12">
-               <img src="{{ site.baseurl }}/assets/images/venue/poggio3.jpeg" alt="Poggio all'Agnello">
+               <img src="{{ '/assets/images/venue/poggio3.jpeg' | relative_url }}" alt="Poggio all'Agnello">
             </div>
         <div class="col-md-6 col-sm-12">
             <h3>WHERE</h3>
-            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ site.baseurl }}{% link _pages/venue.markdown %}.html">Poggio all’Agnello </a> is a fully equipped resort that will host the 2027 edition of the SoBigData Summer school.
+            <p class="lead">Nested in the gulf of Baratti on the “Etruscan Coast” in Tuscany (Italy), <a href="{{ '/venue.html' | relative_url }}">Poggio all’Agnello </a> is a fully equipped resort that will host the 2027 edition of the SoBigData Summer school.
             </p>
             <h3>Registration & Deadline</h3>
             <p>Early registration until {{ site.data.school-info.registration.early.deadline }}.</p>
@@ -136,7 +136,7 @@ Data, Models and Human–AI Coevolution: how algorithms and people shape each ot
             <div class="col-md-12">
                 <div>
                     <h3>Interested in attending?</h3>
-                    <a href="{{site.baseurl}}{% link _pages/registration.markdown %}.html" class="btn btn-primary">Register now</a>
+                    <a href="{{ '/registration.html' | relative_url }}" class="btn btn-primary">Register now</a>
                 </div>
             </div>
         </div>
@@ -147,8 +147,8 @@ Data, Models and Human–AI Coevolution: how algorithms and people shape each ot
         <div class="col-md-12">
             <h5>This summer school is organized and supported by</h5>
         <div class="logo-grid">
-                    <a href="http://sobigdata.eu" target="_blank" title="SoBigData RI"><img src="{{ site.baseurl }}/assets/images/Logo_SoBigData_RI_560_X_100.png" alt="SoBigData RI" ></a>
-                    <a href="https://www.caio-project.it/" target="_blank" title="CAIO - City-AI Coevolution"><img src="{{ site.baseurl }}/assets/images/logo_CAIO.svg" alt="CAIO" ></a>
+                    <a href="http://sobigdata.eu" target="_blank" title="SoBigData RI"><img src="{{ '/assets/images/Logo_SoBigData_RI_560_X_100.png' | relative_url }}" alt="SoBigData RI" ></a>
+                    <a href="https://www.caio-project.it/" target="_blank" title="CAIO - City-AI Coevolution"><img src="{{ '/assets/images/logo_CAIO.svg' | relative_url }}" alt="CAIO" ></a>
         </div>
         </div>
     </div>
