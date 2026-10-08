@@ -12,7 +12,7 @@ In questo ambiente vengono sviluppate e testate tutte le modifiche al sito.
 
 1. Per avviare il server di sviluppo in locale:
    ```bash
-   bundle exec jekyll serve --config _config.yml,_config_dev.yml
+   bundle exec jekyll serve
    ```
 
 2. Verifica le modifiche all'indirizzo `http://localhost:4000`
@@ -41,14 +41,14 @@ Una volta approvate le modifiche in certificazione, è possibile procedere con l
 
 2. Generare i file statici:
    ```bash
-   bundle exec jekyll build --config _config.yml,_config_dist.yml
+   bundle exec jekyll build --config _config.yml,_build_config.yml
    ```
-   I file verranno generati nella cartella `_site`
+   I file verranno generati nella cartella `docs` (da committare)
 
 3. Pubblicare il sito in produzione via SSH:
    ```bash
    # Esempio di comando scp (da adattare in base alla configurazione del server)
-   scp -r _site/* user@server:/path/to/sobigdata-summerschool2027/
+   rsync -avz docs/ user@server:/path/to/sobigdata-summerschool2027/
    ```
 
 4. Il sito sarà disponibile all'indirizzo:  
@@ -59,15 +59,14 @@ Una volta approvate le modifiche in certificazione, è possibile procedere con l
 Il sito utilizza file di configurazione specifici per ogni ambiente:
 
 - `_config.yml`: Configurazione base comune a tutti gli ambienti
-- `_config_dev.yml`: Configurazioni specifiche per l'ambiente di sviluppo
-- `_config_dist.yml`: Configurazioni specifiche per l'ambiente di produzione
+- `_build_config.yml`: Override per la build di deploy portabile (`pure_relative_paths: true`, output in `docs`)
 
 ## Link relativi
 
 I plugin in `_plugins/` (importati da [sbd-master-website](https://github.com/danielefadda/sbd-master-website)) ridefiniscono il filtro `relative_url`:
 
 - `pure_relative_paths: false` (default in `_config.yml`, usato da `jekyll serve` e da GitHub Pages, che ignora i plugin custom): `relative_url` si comporta come lo standard Jekyll e usa `baseurl`.
-- `pure_relative_paths: true` (attivo in `_config_dist.yml` e `_config_dist_test.yml`): `relative_url` genera percorsi relativi alla pagina corrente (es. `assets/...`, `../assets/...`), quindi il sito funziona da qualsiasi sottocartella indipendentemente da `baseurl`. I link interni assoluti generati dal tema (CSS, feed, gallerie) vengono resi relativi in post-render; canonical, `og:` e JSON-LD restano assoluti.
+- `pure_relative_paths: true` (attivo in `_build_config.yml`): `relative_url` genera percorsi relativi alla pagina corrente (es. `assets/...`, `../assets/...`), quindi il sito funziona da qualsiasi sottocartella indipendentemente da `baseurl`. I link interni assoluti generati dal tema (CSS, feed, gallerie) vengono resi relativi in post-render. Con `url: ""` anche canonical, `og:` e JSON-LD sono relativi.
 
 Regole pratiche:
 

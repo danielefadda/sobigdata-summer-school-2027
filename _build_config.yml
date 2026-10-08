@@ -1,0 +1,9 @@
+url: ""
+baseurl: ""
+destination: "_site"
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+pure_relative_paths: true
